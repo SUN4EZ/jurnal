@@ -57,12 +57,17 @@ caption {
 th {
 	background-color: #cc6600;
 }
-/*Проверить работу по родительскому элементу*/
+
 .cellcolor {
 	background-color: #fcba7a;
 }
-/*
-tr: tr-child(odd) {
-	background-color: #fcba7a;
+
+table table th {
+	background-color: white;
 }
-*/
+
+li {
+	list-style-image: url(images/backpack.gif);
+	padding-top: 5px;
+	margin-left: 20px;
+}
